@@ -74,6 +74,13 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+	<distributionManagement>
+    		<snapshotRepository>
+        	<id>snapshots</id>
+        	<name>ip-172-31-3-61.ap-south-1.compute.internal-snapshots</name>
+        	<url>http://15.207.64.68:8081/artifactory/libs-snapshot-local</url>
+   	 	</snapshotRepository>
+	</distributionManagement>
 
 	<build>
 		<finalName>weshopify-gateway</finalName>
